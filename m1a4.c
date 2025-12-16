@@ -33,7 +33,7 @@ int main()
     //The do-while loop that allows the program to be re-run, stopped or re-run with an extra store
     do
     {
-    //This method calculates the total amount of all sales
+    //This function calculates the total amount of all sales
     total=0;
     for (i=0;i<size;i++)
     {
@@ -62,7 +62,7 @@ int main()
             }
             
             
-            //adding the new value. No for loop is required, due to the size changing by 1 every time the do-while loop is running
+            //Adding the new value. No for loop is required, due to the size changing by 1 every time the do-while loop is running
             do{
             printf("Enter new sales values from store #%d: \n",size);
             scanf("%f",&sales[size-1]);
